@@ -3,7 +3,7 @@
 Drum-Pad Machine is a single page web application that plays a sound when you press the buttons on the app's drumpad or on the keyboard buttons.
 This application was created as part of the Front End Development Libraries course.
 
-![drum-pad-machine picture]('./public/drum-pad.png')
+![drum-pad](https://user-images.githubusercontent.com/64536303/177727967-ab9c9d38-dd5d-4336-b8c8-79dbc33e882d.png)
 
 ## What is the use of this Repo
 
