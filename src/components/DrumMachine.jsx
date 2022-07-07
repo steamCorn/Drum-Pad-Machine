@@ -20,14 +20,15 @@ class DrumMachine extends React.Component {
     }
 
     changeSoundFile(e) {
-        if (e.currentTarget.value === 'firstAudioFile') {
+        let currentSound = e.currentTarget.value;
+        if (currentSound === 'firstAudioFile') {
             this.setState({
-                soundFileName: e.currentTarget.value,
+                soundFileName: currentSound,
                 currentSoundFile: firstAudioFile,
             });
         } else {
             this.setState({
-                soundFileName: e.currentTarget.value,
+                soundFileName: currentSound,
                 currentSoundFile: secondAudioFile,
             });
         }
